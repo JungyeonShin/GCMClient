@@ -14,6 +14,7 @@ public class GCMIntentService extends GCMBaseIntentService{
 	
 	public GCMIntentService(){} 
 	
+	
 	// registration or unregistration 에러가 날 경우 호출
 	@Override
 	protected void onError(Context context, String errorId) {
